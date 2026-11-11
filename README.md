@@ -13,8 +13,14 @@ Formal verification in Lean 4 of incremental $n \times n$ Latin squares and cycl
 
 - `Challenge.lean` — The main theorems.
 - `Solution.lean` — Proves the main theorems declared in `Challenge.lean`.
+
+and
+
 - `IncrementalNCCoins/Basic.lean` — Basic definitions
 - `IncrementalNCCoins.lean` — Supporting lemmas and constructions (the injective-majorization principle, the four modular families modulo 6, and the exceptional cases $n \in \{4, 6, 8, 9, 15, 21\}$).
+
+and
+
 - `comparator.json` — Configuration for `lake comparator`.
 - `formalization.yaml` — Palomar Registry metadata.
 
