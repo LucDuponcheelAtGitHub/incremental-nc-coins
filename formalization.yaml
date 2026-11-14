@@ -30,18 +30,23 @@ sources:
     authors:
       - "Marc Duponcheel"
       - "Luc Duponcheel"
-    type: "original-proof"
-    location: "https://github.com/NofanTasi/incremental-nc-coins-problem"
-    relationship: "other"
+    id: "https://github.com/NofanTasi/incremental-nc-coins-problem/blob/main/doc/pdf/paper.pdf"
+    type: "paper"
+    location: "https://github.com/NofanTasi/incremental-nc-coins-problem/blob/main/doc/pdf/paper.pdf"
+    relationship: "formalizes"
+    note: "Accompanying paper by the authors presenting Theorems 2.1 and 2.2, developed in tandem with this Lean 4 formalization."
+    license: "Apache-2.0"
+    author_endorsement: "participated"
   - title: "A generalization of the n-queen problem"
     authors:
       - "Mao-Hua Le"
       - "Wen Li"
       - "Edward T. Wang"
-    id: "https://sysmath.cjoe.ac.cn"
+    id: "https://zbmath.org/4212061"
     type: "article"
-    location: "Journal of Systems Science and Mathematical Sciences 3 (1990), no. 2, 183–192"
+    location: "Journal of Systems Science and Mathematical Sciences 3 (1990), no. 2, 183–192 (zbMATH 0705.05013)"
     relationship: "background"
+    note: "Constructs solutions to the (n, c)-coins problem separately for each fixed c, whereas our Theorem 2.1 and Theorem 2.2 construct a single cyclic incremental Latin square representing solutions simultaneously for all 0 ≤ c ≤ n."
 
 related_formalizations: []
 
