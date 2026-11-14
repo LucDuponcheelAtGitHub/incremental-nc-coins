@@ -7,14 +7,7 @@
     "IncrementalCyclic.exists_incremental_ge_4",
     "IncrementalCyclic.exists_incremental_representing_nc_coins"
   ],
-  "definition_names": [
-    "IncrementalCyclic.cyclicSquare",
-    "IncrementalCyclic.sumDiagOk",
-    "IncrementalCyclic.diffDiagOk",
-    "IncrementalCyclic.IsIncremental",
-    "IncrementalCyclic.IsNCCoinsSolution",
-    "IncrementalCyclic.coinsFromSquare"
-  ],
+  "definition_names": [],
   "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
   "enable_nanoda": true
 }

@@ -20,7 +20,7 @@ def cyclicSquare
   Fin n → Fin n → Fin n :=
 
     fun i j =>
-      ⟨(i.val + (p j).val) % n, mod_lt _ (by omega)⟩
+      ⟨(i.val + (p j).val) % n, mod_lt _ (Nat.zero_lt_of_lt h)⟩
 
 def sumDiagOk
     (n : ℕ)

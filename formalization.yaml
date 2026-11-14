@@ -68,7 +68,7 @@ automation:
         hardware: "local machine"
       prompting_notes: "Collaborative proof development using the injective-majorization principle across residue classes modulo 6."
   spend_usd: "not tracked"
-  notes: "Conjectured by Marc Duponcheel and formalized in Lean 4 by Luc Duponcheel with AI assistance."
+  notes: "The creativity and ingenuity of Marc led to the conjecture, and the 'heavy lifting' of Luc (with the help of Gemini) led to its formalization and proof in Lean 4."
 
 fidelity:
   divergences: "none known"
